@@ -1,0 +1,57 @@
+{
+  "name": "discord-ai-mcp",
+  "version": "1.0.0",
+  "description": "Discord AI MCP — Complete locally hosted Discord management platform exposed through the Model Context Protocol (MCP). Created by Omar ElSabbagh, a professional programmer from Egypt and the owner of the EnzoCord Discord community.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "discord-ai-mcp": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": {
+    "name": "Omar ElSabbagh",
+    "country": "Egypt",
+    "role": "Project Creator, Owner, and Professional Programmer",
+    "community": "EnzoCord"
+  },
+  "copyright": "Copyright (c) 2026 Omar ElSabbagh. Licensed under the MIT License.",
+  "attribution": "This project was created by Omar ElSabbagh, a professional programmer from Egypt and the owner of the EnzoCord Discord community.",
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "mcp",
+    "model-context-protocol",
+    "discord-js",
+    "ai",
+    "bot",
+    "moderation",
+    "server-management",
+    "enzocord",
+    "omar-elsabbagh"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node scripts/setup.js",
+    "diagnostics": "node scripts/diagnostics.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.28.0",
+    "dotenv": "^16.4.7",
+    "pino": "^10.4.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.0",
+    "eslint": "^10.14.0",
+    "globals": "^16.0.0",
+    "vitest": "^5.1.0"
+  }
+}
+

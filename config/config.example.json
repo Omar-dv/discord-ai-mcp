@@ -1,0 +1,32 @@
+{
+  "project": "Discord AI MCP",
+  "copyright": "Copyright (c) 2026 Omar ElSabbagh. Licensed under the MIT License.",
+  "author": {
+    "name": "Omar ElSabbagh",
+    "country": "Egypt",
+    "role": "Project Creator, Owner, and Professional Programmer",
+    "community": "EnzoCord"
+  },
+  "logging": {
+    "level": "info"
+  },
+  "database": {
+    "path": "./data/database.sqlite",
+    "enableAuditHistory": true
+  },
+  "discord": {
+    "intentsPreset": "default",
+    "enableMessageContentIntent": true,
+    "enableGuildMembersIntent": true,
+    "enableGuildPresencesIntent": false
+  },
+  "security": {
+    "confirmationTtlSeconds": 300,
+    "rateLimitMaxDestructivePerMinute": 10,
+    "rateLimitMaxMessagesPerMinute": 30
+  },
+  "backup": {
+    "exportDir": "./data/backups"
+  }
+}
+
